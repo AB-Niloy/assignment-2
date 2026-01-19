@@ -232,6 +232,71 @@ hr{
     height: 100%;
     border-radius: 40px;
 }
+.feature-section{
+    max-width: 1600px;
+    padding-bottom: 100px;
+    background-color: #1A0B2E;
+}
+.feature-section h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.feature-episode{
+    max-width: 1200px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.feature-section .feature-episode .card{
+    background-color: #250D44;
+    border-radius: 20px;
+}.feature-section .feature-episode .card iframe{
+    border-radius: 20px;
+}
+.feature-section .feature-episode .card h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 24px 24px 12px;
+}
+.feature-section .feature-episode .card p{
+    margin: 0 24px 12px;
+}
+.feature-section .feature-episode .card p img{
+    margin-right: 5px;
+}
+.feature-host{
+    max-width: 1200px;
+    display: flex;
+    gap: 24px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.feature-host .host-image img{
+    margin: 40px 0 40px 40px;
+}
+.feature-host .host-content h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-host .host-content p{
+    margin-bottom: 16px;
+}
+.feature-host .host-content img{
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 100px;
+}
+
 /* small device */
 @media screen and (max-width:576px){
     .navbar{
@@ -249,6 +314,28 @@ hr{
     .navbar .hamburger{
         visibility: visible;
     }
+    .banner{
+        height: 600px;
+    }
+    .banner-image img{
+        height: 200px;
+        width: 200px;
+    }
+    .badge {
+    position: relative; 
+    left: 220px;
+    bottom: 220px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 4px 10px;
+    }
+    .mic{
+    position: absolute;
+    left: 140px;
+    bottom: 340px;
+    height: 120px;
+    width: 90px;
+    }
     .about-container h2{
     font-size: 1rem;
     font-weight: 700;
@@ -257,7 +344,7 @@ hr{
     .about-container p{
     font-size: 1rem;
     line-height: 1.25rem;
-    text-align:justify;
+    text-align:center;
     padding: 16px 20px 15px;
     margin-bottom: 50px;
     }
@@ -312,4 +399,41 @@ hr{
     padding-right: 16px;
     padding-bottom: 40px;
     }
+    .feature-section{
+    padding-bottom: 40px;
+    }
+    .feature-section h2{
+    font-size: 2rem;
+    padding-top: 40px;
+    margin-bottom: 24px;
+    }
+    .feature-episode{
+    flex-direction: column;
+    }
+    .feature-host{
+    flex-direction: column;
+    }
+    .feature-host .host-image img{
+    margin: 24px 125px 16px;
+    }
+    .feature-host .host-content h4{
+    font-size: 1,5rem;
+    text-align: center;
+    }
+    .feature-host .host-content p{
+    font-size: 1 rem;
+    text-align: center;
+    line-height: 16px;
+    margin-left: 24px;
+    margin-right: 24px
+    }
+    .feature-host .host-content img{
+    margin-left: 40px;
+    margin-bottom: 24px;
+    }
+}
+
+/* Large device */
+@media screen and (min-width:992px){
+    
 }
