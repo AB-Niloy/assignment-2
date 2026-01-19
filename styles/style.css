@@ -14,6 +14,9 @@
 .text-white{
     color: #FFFFFF;
 }
+.text-green{
+    color: #00FF88;
+}
 
 /* nav{
     background-color: #1A0B2E;
@@ -121,7 +124,45 @@ hr{
     left: 46.25rem;
     bottom: 17.5rem;
 }
-
+.about-section{
+    max-width: 1600px;
+    background-color: #1A0B2E;
+}
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-container h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-container p{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 80px;
+}
+.about-item{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+}
+.about-item .about-card h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.about-item .about-card p{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 120px;
+}
 /* small device */
 @media screen and (max-width:576px){
     .navbar{
@@ -139,6 +180,28 @@ hr{
     .navbar .hamburger{
         visibility: visible;
     }
-    
+    .about-container h2{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 40px 20px 0;
+    }
+    .about-container p{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align:justify;
+    padding: 16px 20px 15px;
+    margin-bottom: 50px;
+    }
+    .about-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 50px;
+    }
+    .about-item .about-card h2{
+    font-size: 2.5rem;
+    }
+    .about-item .about-card p{
+    margin-bottom: 30px;
+    }
     
 }
