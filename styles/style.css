@@ -20,10 +20,7 @@
     color: #00FF88;
 }
 
-/* nav{
-    background-color: #1A0B2E;
-    height:92px;
-} */
+
 .navbar{
     background-color: #1A0B2E;
     height:92px;
@@ -57,6 +54,10 @@ nav #nav-text-color{
     background: linear-gradient(#F7E93F,#FB09B4, #9100F8);
     font-size: 1rem;
     font-weight: 600;
+    transition: 0.3s;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
 .navbar .hamburger{
     visibility: hidden;
@@ -100,6 +101,10 @@ hr{
     margin-right: 8px;
     font-size: 1rem;
     font-weight: 600;
+    transition: 0.3s;
+}
+.btn1:hover {
+  box-shadow: 0px 5px 10px magenta;
 }
 .banner .banner-content .btn2{
     color: #00FF88;
@@ -109,6 +114,10 @@ hr{
     background: transparent;
     font-size: 1rem;
     font-weight: 600;
+    transition: 0.3s;
+}
+.btn2:hover {
+  transform: rotate(180deg);
 }
 .badge {
   position: relative; 
